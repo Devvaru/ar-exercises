@@ -9,6 +9,6 @@ Store.create(:name => 'Burnaby', :mens_apparel => true, :womens_apparel => true,
 
 Store.create(:name => 'Richmond', :mens_apparel => false, :womens_apparel => true, :annual_revenue => 1260000)
 
-Store.create(:name => 'Gastown', :mens_apparel => false, :womens_apparel => false, :annual_revenue => 190000)
+Store.create(:name => 'Gastown', :mens_apparel => true, :womens_apparel => false, :annual_revenue => 190000)
 
 puts Store.count
